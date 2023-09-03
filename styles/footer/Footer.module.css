@@ -1,0 +1,30 @@
+/* home page footer  */
+.hf_container {
+  @apply grid grid-cols-1 md:grid-cols-3 bg-[#002C3E] text-slate-100 py-12 px-8;
+}
+
+.hf_left_side {
+  @apply space-y-5 my-8 md:my-0 border-b-[1px] pb-6 md:border-none md:p-0;
+}
+
+.hf_menu_account_container {
+  @apply grid grid-cols-2 my-8 md:my-0 border-b-[1px] pb-6 md:border-none md:p-0;
+}
+
+.hf_input_group {
+  @apply flex items-center relative justify-center md:justify-start;
+}
+
+/* common footer  */
+.footer_link {
+  @apply bg-slate-50 text-slate-800 my-4 p-2 rounded-full hover:bg-red-500;
+  transition: 0.5s all;
+}
+
+.footer_container {
+  @apply grid grid-cols-1 md:grid-cols-3 bg-[#002C3E] text-slate-50 p-14;
+}
+
+.footer_left_side {
+  @apply space-y-5 border-b-[1px] pb-6 mb-6 md:border-none md:pb-0 md:mb-0;
+}

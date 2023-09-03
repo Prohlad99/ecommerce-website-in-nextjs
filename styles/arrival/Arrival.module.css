@@ -1,0 +1,10 @@
+.arrival_bg {
+  background-image: url("/asset//images/arrival-bg.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: 100% 100%;
+
+  @apply md:h-[500px] h-[50vw] flex justify-between;
+}

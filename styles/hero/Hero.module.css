@@ -1,0 +1,17 @@
+.hero {
+  background-image: url("/asset/images/slider-bg.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: 100% 100%;
+  @apply md:h-[710px] bg-cover h-[50vw];
+}
+
+/* for carousel  */
+.sale_off_btn {
+  @apply bg-[#F7444E] md:px-8 md:py-2 rounded-md md:mt-8 font-semibold tracking-wider 
+    hover:bg-transparent hover:border-[1px] border-[#F7444E] hover:text-[#F7444E]
+    px-4 py-1;
+  transition: 0.25s all;
+}

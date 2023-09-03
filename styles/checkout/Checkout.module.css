@@ -1,0 +1,21 @@
+.form_container {
+  @apply bg-slate-400 md:w-[65%] p-4 rounded-md;
+}
+.form input {
+  @apply border-[1px] border-stone-700 px-3 py-1 my-1 mr-2 rounded-sm w-full;
+}
+.form span {
+  @apply text-red-500 text-xl font-bold;
+}
+.form > div {
+  @apply my-3;
+}
+
+/* payment method  */
+.payment_form input {
+  @apply border-[1px] border-stone-700 px-3 py-1 my-1 mr-2 rounded-sm w-full;
+}
+
+.payment_form span {
+  @apply text-red-600 text-2xl font-semibold;
+}

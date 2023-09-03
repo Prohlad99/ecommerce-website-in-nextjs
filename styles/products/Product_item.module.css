@@ -1,0 +1,16 @@
+.btn {
+  @apply py-1 rounded-md hover:bg-transparent hover:border-[2px] my-1;
+  transition: 0.25s all;
+}
+
+.container {
+  @apply m-auto flex justify-center h-[380px];
+}
+
+.cart_container {
+  @apply bg-green-300 px-10 py-2 shadow-lg rounded-md;
+}
+
+.cart_details {
+  @apply border-b-[2px] border-stone-500 pb-2 mb-3;
+}

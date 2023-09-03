@@ -1,0 +1,64 @@
+/* cart item  */
+.cart_container {
+  @apply grid grid-cols-12 items-center bg-green-200 p-2 rounded-md;
+}
+
+.item_container {
+  @apply md:col-span-6 col-span-12  justify-self-center;
+}
+
+.item {
+  @apply grid grid-cols-12 border-b-[1px] md:border-none border-stone-600 pb-2 mb-2;
+}
+
+.title {
+  @apply md:text-xl font-semibold;
+}
+
+.price {
+  @apply md:col-span-2 col-span-4  justify-self-center;
+}
+
+.quantity {
+  @apply md:col-span-2 col-span-4  justify-self-center;
+}
+.quantity_content_container {
+  @apply flex justify-center items-center;
+}
+
+.qty_btn_dec {
+  @apply bg-red-500 px-3 py-1 rounded-l-md font-semibold;
+}
+.qty_btn_inc {
+  @apply bg-blue-500 px-3 py-1 rounded-r-md font-semibold;
+}
+.qyt_input {
+  @apply md:w-[50px] w-[30px] text-center;
+}
+
+.total {
+  @apply md:col-span-2 col-span-4  justify-self-center;
+}
+
+.del_btn {
+  @apply text-red-500 text-xl hidden md:block;
+}
+
+/* grand total  */
+.main_container {
+  @apply bg-slate-300 flex justify-center p-8 m-4 rounded-md;
+}
+.table tr:not(:last-child) {
+  @apply border-b-[1px] border-stone-600;
+}
+
+.table tr td:nth-child(even) {
+  @apply text-right;
+}
+.table tr td {
+  @apply pb-3 m-3;
+}
+
+.check_out_bnt {
+  @apply px-6 py-1 bg-green-500 mt-4 rounded-md;
+}
